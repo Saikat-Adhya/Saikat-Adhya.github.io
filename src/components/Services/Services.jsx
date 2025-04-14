@@ -13,11 +13,6 @@ const services = [
     icon: FaServer,
   },
   {
-    title: 'Mobile Development',
-    description: 'Developing cross-platform mobile applications.',
-    icon: FaMobile,
-  },
-  {
     title: 'Database Design',
     description: 'Designing and optimizing database structures.',
     icon: FaDatabase,

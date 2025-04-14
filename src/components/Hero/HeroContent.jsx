@@ -19,7 +19,7 @@ const HeroContent = () => {
       </p>
       <div className="flex gap-4 mt-8">
         <motion.a
-          href="/SaikatcvTechno.pdf"
+          href="/Resume.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

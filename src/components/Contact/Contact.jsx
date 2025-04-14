@@ -14,10 +14,10 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_d0ubp3d',
+        'template_yqkh0e6',
         formRef.current,
-        'YOUR_PUBLIC_KEY'
+        'J0JtcEs3cy2F7Qlw7'
       );
       setSuccess(true);
     } catch (error) {
