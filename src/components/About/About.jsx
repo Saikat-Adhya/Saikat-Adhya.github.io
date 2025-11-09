@@ -22,7 +22,7 @@ const About = () => {
             Experienced in building Realtime web applications using technologies like HTML,CSS,JS,React Js, Node Js,MongoDB, Express Js.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies,
+              When I am not coding, you can find me exploring new technologies,
               contributing to open-source projects, or sharing my knowledge through
               technical blog posts.
             </p>
