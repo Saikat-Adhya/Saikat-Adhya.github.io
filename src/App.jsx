@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import ReactGA from 'react-ga4';
+
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
@@ -12,6 +15,18 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 function App() {
+
+  useEffect(() => {
+    // 1) Initialize GA
+    ReactGA.initialize('G-YRVNLSBS9B'); // <-- your GA4 ID
+
+    // 2) Send one pageview (your site has no routing)
+    ReactGA.send({
+      hitType: 'pageview',
+      page: window.location.pathname + window.location.search,
+    });
+  }, []);
+
   return (
     <ThemeProvider>
       <main className="bg-primary text-primary-content overflow-hidden transition-colors duration-300">
