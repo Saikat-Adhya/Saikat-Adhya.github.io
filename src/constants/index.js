@@ -64,6 +64,32 @@ export const projects = [
     live: "https://travia-front.netlify.app/",
     image: "/travia1.png",
   },
+  {
+    title: "LearningVideofy",
+    description:
+      "LearningVideofy is a realtime learning & social platform focused on live video calls, chat, and friend connections. Built with a modern React + Tailwind/DaisyUI frontend and a Node.js/Express + MongoDB backend, it provides low-latency video calling, real-time messaging, and friend request workflows using the Stream API for scalable activity and chat streams. The UI is responsive and polished, with features for joining/creating rooms, one-to-one and group calls, presence indicators, message history, and simple user management.",
+    tech: [
+      "DaisyUI",
+      "Tailwind",
+      "React",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Stream API",
+    ],
+    link: "https://github.com/Saikat-Adhya/Videofy",
+    live: "https://learningvideofy.tech/",
+    image: "/learningvideofy.png",
+  },
+  {
+    title: "QuickShow",
+    description:
+      "QuickShow is a full-stack movie ticket booking platform where users can browse movies, check showtimes, select seats, and manage their bookings, while admins handle movie, showtime, and booking management through a dedicated dashboard. Built with the MERN stack—MongoDB for storing movie, user, and booking data; Express.js and Node.js for the backend REST API; and React for a dynamic, SPA-style frontend—QuickShow uses Tailwind CSS for fast, utility-first styling and fully responsive layouts. It also integrates secure authentication, online payments, and email notifications for a smooth end-to-end experience.",
+    tech: ["MERN (MongoDB, Express.js, React, Node.js)", "Tailwind CSS"],
+    link: "https://github.com/Saikat-Adhya/Movie_QuickShow",
+    live: "https://saikatmovieshow.shop/",
+    image: "/quickshow.png",
+  },
 ];
 
 export const experiences = [

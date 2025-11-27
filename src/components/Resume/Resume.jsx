@@ -10,7 +10,7 @@ const Resume = () => {
           Download my resume to learn more about my skills, experience, and qualifications.
         </p>
         <motion.a
-          href="/Resume.pdf"
+          href="/Saikat_Adhya_Resume_2025.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

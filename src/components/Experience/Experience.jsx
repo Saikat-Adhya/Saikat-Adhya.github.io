@@ -3,27 +3,27 @@ import { FaBriefcase } from 'react-icons/fa';
 import 'react-vertical-timeline-component/style.min.css';
 
 const experiences = [
+  // {
+  //   title: "Senior Developer",
+  //   company: "Tech Corp",
+  //   date: "2022 - Present",
+  //   description: "Led development of multiple web applications using React and Node.js.",
+  //   skills: ["React", "Node.js", "AWS"]
+  // },
   {
-    title: "Senior Developer",
-    company: "Tech Corp",
-    date: "2022 - Present",
-    description: "Led development of multiple web applications using React and Node.js.",
-    skills: ["React", "Node.js", "AWS"]
+    title: "Full Stack MERN-Developer",
+    company: "Euphoria Genx Kolkata",
+    date: "Feb 2025 - Aug 2025",
+    description: "Worked on developing and maintaining web applications using the MERN stack (MongoDB, Express.js, React, Node.js). Collaborated with cross-functional teams to deliver high-quality software solutions.",
+    skills: ["MongoDB", "Express.js", "React", "Node.js", "JavaScript", "HTML", "CSS" ,"Git"]
   },
-  {
-    title: "Full Stack Developer",
-    company: "Digital Solutions",
-    date: "2020 - 2022",
-    description: "Developed and maintained various client projects.",
-    skills: ["JavaScript", "Python", "MongoDB"]
-  },
-  {
-    title: "Junior Developer",
-    company: "StartUp Inc",
-    date: "2019 - 2020",
-    description: "Worked on frontend development using React and Vue.js.",
-    skills: ["React", "Vue.js", "CSS"]
-  }
+  // {
+  //   title: "Junior Developer",
+  //   company: "StartUp Inc",
+  //   date: "2019 - 2020",
+  //   description: "Worked on frontend development using React and Vue.js.",
+  //   skills: ["React", "Vue.js", "CSS"]
+  // }
 ];
 
 const Experience = () => {
